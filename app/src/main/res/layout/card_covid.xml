@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFEB3B"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text = "Location"/>
+
+    <TextView
+        android:id="@+id/tvCCI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text = "Confirmed Cases"/>
+    <TextView
+        android:id="@+id/tvCCF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text = "Confirmed Cases Foreign"/>
+    <TextView
+        android:id="@+id/tvDS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text = "Discharged"/>
+    <TextView
+        android:id="@+id/tvDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text = "Deaths"/>
+    <TextView
+        android:id="@+id/tvTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text = "Total Confirmed"/>
+
+
+</LinearLayout>
